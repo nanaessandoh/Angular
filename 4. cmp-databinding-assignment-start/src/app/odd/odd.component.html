@@ -1,0 +1,4 @@
+<div class="alert" role="alert" 
+*ngIf="element.count % 2 === 1"
+[ngClass]="{'alert-info': element.count % 2 === 1}">
+{{ element.type }} {{element.count}}</div>
